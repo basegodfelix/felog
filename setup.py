@@ -10,11 +10,11 @@ def read():
 
 setuptools.setup(
     name="Felog",
-    version="1.0.0",
+    version="1.0.1",
     author="Felix Hernandez",
     description="Felog is yet another simple logging library to quickly and simply deploy logging with projects.",
     packages=["felog"],
-    install_requires=["logging"],
+    # install_requires=["logging"],
     url="https://github.com/basegodfelix/felog",
     long_description = read(),
     long_description_content_type = 'text/markdown',
